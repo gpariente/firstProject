@@ -1,4 +1,5 @@
-const token = "5834958234:AAFXLPX4F7f9Iqmsozvp8CeugFAZCTypSz0";
+// Sets my token and user's id.
+const TOKEN = "5834958234:AAFXLPX4F7f9Iqmsozvp8CeugFAZCTypSz0";
 const CHAT_ID = "496192745";
 
 const sendMessage = async () => {
