@@ -1,0 +1,2 @@
+# Ignores the script.js file becuase we have a token in it.
+index.html
