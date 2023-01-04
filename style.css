@@ -4,3 +4,8 @@ body {
 .centered {
   text-align: center;
 }
+#message {
+  height: 200px;
+  width: 400px;
+  text-align: right;
+}
