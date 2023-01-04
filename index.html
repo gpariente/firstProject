@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
-    <title>GitHub</title>
+    <title>Telegram Message Sender</title>
   </head>
-  <body>
-    <h1 class="centered">Send a message via Telegram</h1>
+  <body class="centered">
+    <h1>Send a message via Telegram</h1>
     <form>
+      <label for="chatId">Chat ID:</label><br />
+      <input type="number" id="chatId" name="chatId" /><br />
       <label for="message">Message:</label><br />
       <input type="text" id="message" name="message" /><br />
       <button type="button" onclick="sendMessage()">Send</button>
